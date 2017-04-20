@@ -15,4 +15,5 @@
 - `predict.py` -- uses a previously trained model to generate a ranking file, or simply evaluate on a test set
 - `reader.py` -- contains code for reading and parsing dataset files
 - `train.py` -- trains the logistic regression model
+
 `eval.py` -- contains evaluation code and our implementation of ERR and NDCG metrics
