@@ -1,6 +1,6 @@
 # COMPM052: Information Retrieval and Data Mining Project
 
-## Group 23
+## Group 23 / Project 2
 * Archit Sachdeva
 * Georgi Georgiev
 * Krzysztof Wroblewski
