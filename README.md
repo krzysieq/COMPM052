@@ -1,5 +1,9 @@
-# COMPM052
-Information Retrieval and Data Mining Project
+# COMPM052: Information Retrieval and Data Mining Project
+
+## Group 23
+* Archit Sachdeva
+* Georgi Georgiev
+* Krzysztof Wroblewski
 
 ## Microsoft Learning to Rank Datasets
 [Homepage](https://www.microsoft.com/en-us/research/project/mslr/)
