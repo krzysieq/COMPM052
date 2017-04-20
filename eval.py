@@ -26,6 +26,8 @@ def getRanks(ranks_file):
       row = line.split()
       qid = int(row[0])
       uid = int(row[1])
+      if qid not in queries:
+        queries[qid] = []
       queries[qid].append(uid)
   return queries
 
@@ -126,4 +128,4 @@ if __name__ == '__main__':
   if args.NDCG is not None:
     print('NDCG@%d' % (args.NDCG), av_rank(ranks, NDCG, args.NDCG))
   if args.ERR is not None:
-    print('ERR@%d' % (args.ERR), av_rank(ranks, ERR, args.NDCG))
+    print('ERR@%d' % (args.ERR), av_rank(ranks, ERR, args.ERR))
